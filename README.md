@@ -10,5 +10,6 @@ Live coding para iniciar amigos no Frontend
 ### Live #2 - Conhecendo tecnologias que facilitam o desenvolvimento
 - Fazer a mesma página da Live #1 aplicando algumas tecnologias novas;
 - Aplicar Sass, Jquery, Bootstrap e talvez Gulp;
+- Padrão CSS BEM;
 
 #### OBS..:A live será gravada e após cada uma delas o aluno terá que replicar o código em seu repositório github
