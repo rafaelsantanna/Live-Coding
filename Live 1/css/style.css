@@ -46,6 +46,12 @@ body {
     transition: color .7s;
 }
 
+.header .menu-hamburger {
+    display: none;
+    color: #fff;
+    font-size: 25px;
+}
+
 /* Banner */
 .banner {
     background-image: url('../images/background.png');
@@ -276,9 +282,6 @@ body {
 .footer-address {
     opacity: 50%;
 }
-.footer-social-links {
-
-}
 .footer-social-links a {
     width: 30px;
     height: 30px;
@@ -333,3 +336,28 @@ body {
 .button:hover {
     opacity: .9;
 }
+
+/* Responsive */
+
+ /* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+@media (max-width: 575.98px) { }
+
+ /* Dispositivos small (telefones em modo paisagem, com menos de 768px) */
+@media (max-width: 767.98px) {
+    .banner-title {
+        font-size: 35px;
+    }
+ }
+
+/* Dispositivos médios (tablets com menos de 992px) */
+@media (max-width: 991.98px) {
+    .header-menu {
+        display: none;
+    }
+    .header .menu-hamburger {
+        display: block;
+    }
+}
+
+/* Dispositivos large (desktops com menos de 1200px) */
+@media (max-width: 1199.98px) { }
